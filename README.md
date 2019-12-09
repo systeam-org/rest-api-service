@@ -22,7 +22,25 @@ The repository for backend APIs for SysteamBiz shipment solution.
   ![Architecture Diagram](Architecture-Diagram.png)
 
 - Sample Demo Screenshots
+  - Get Estimate
+  ![Get Estimate](images/get_estimate.png)
+  ![Get Estimate with Map](images/get_estimate_map.png)
 
+  - Place Order
+  ![Place Order](images/place_order.png)
+  
+  - Order List
+  ![Order List](images/order_list.png)
+  
+  - Least shipment price
+  ![Least shipment price](images/least_prices.png)
+  
+  - Update Price
+  ![Update Price](images/update_price.png)
+  
+  - Chatbot
+  ![Chatbot](images/chatbot.png)
+  
 - Pre-requisites Set-up
   - AWS S3
   - AWS Cloudfront
