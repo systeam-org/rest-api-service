@@ -10,7 +10,7 @@ The repository for backend APIs for SysteamBiz shipment solution.
   - Dhwani Shanghvi (https://www.linkedin.com/in/dhwani-sanghvi)
   - Jignesh Madhani (https://www.linkedin.com/in/jdmadhani)
   
-- Project Introduction
+### Project Introduction
 
   **In this project, we are going to provide two portals i.e. Customer portal and Vendor portal.**
 
@@ -18,10 +18,10 @@ The repository for backend APIs for SysteamBiz shipment solution.
 
   - **Vendor Portal:** On this portal, vendors can provide shipping rates for a given source, destination and weight. Vendor can also see the list of orders.
 
-- Architecture Diagram:
+### Architecture Diagram:
   ![Architecture Diagram](Architecture-Diagram.png)
 
-- Sample Demo Screenshots
+### Sample Demo Screenshots
   - Get Estimate
   ![Get Estimate](images/get_estimate.png)
   ![Get Estimate with Map](images/get_estimate_map.png)
@@ -41,20 +41,20 @@ The repository for backend APIs for SysteamBiz shipment solution.
   - Chatbot
   ![Chatbot](images/chatbot.png)
   
-- Pre-requisites Set-up
+### Pre-requisites Set-up
   - AWS S3
   - AWS Cloudfront
   - AWS Route53
   - Global Table Configuration for DynamoDB Tables
   
-- List of required software to download locally
+### List of required software to download locally
   - Python v3.7  
   - Docker Desktop
   - AWS SAM cli
   - Java Runtime v1.8 (Needed to run DynamoDB locally)
   - DynamoDBLocal.jar (http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.DynamoDBLocal.html)
    
-- How to set up and run project locally?
+### How to set up and run project locally?
   - **Running DynamoDB locally:**
     - To run DynamoDB locally run download jar from: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html
     - Run following command:     
