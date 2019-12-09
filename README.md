@@ -17,7 +17,12 @@ The repository for backend APIs for SysteamBiz shipment solution.
   - **Customer Portal:** On this portal, customer can provide shipping details such as date, total weight, dimensions, source and destination pin codes. And using these details, system will provide best possible price. After that customer can confirm the order. Customer can also see the list of orders which they have placed.  
 
   - **Vendor Portal:** On this portal, vendors can provide shipping rates for a given source, destination and weight. Vendor can also see the list of orders.
-  
+
+- Architecture Diagram:
+  ![Architecture Diagram](Architecture-Diagram.png)
+
+- Sample Demo Screenshots
+
 - Pre-requisites Set-up
   - AWS S3
   - AWS Cloudfront
