@@ -24,6 +24,8 @@ def handler(event, context):
     for item in items:
         divisions.add(item[DIVISION_COLUMN])
 
+    divisions_list = {"divisions": list(divisions)}
+
     return {'statusCode': 200,
-            'body': json.dumps(divisions, default=utilities.set_default),
+            'body': json.dumps(divisions_list, default=utilities.set_default),
             'headers': {'Content-Type': 'application/json',"Access-Control-Allow-Origin": "*"}}
